@@ -65,3 +65,34 @@ img{
 .clear {
   clear:both;
 }
+
+
+/* Media Query dispositivi <420px */
+
+@media screen and (max-width: 420px) {
+
+.row {
+    width: 100%;
+  }
+
+  #lezioni .row .left, #lezioni .row .right, #steps .row .left, #steps .row > .central, #steps .row > .right {
+    float: none;
+    width: 100%;
+  }
+
+  #lezioni .row .left, #lezioni .row .left, #steps .row .left, #steps .row .central, #steps .row .right{
+    margin-bottom: 5%;
+  }
+
+  #why .row > .first, #why .row > .second, #why .row > .third {
+    margin-top: 5%;
+  }
+
+  img {
+    height: 150px;
+  }
+
+
+
+
+}
